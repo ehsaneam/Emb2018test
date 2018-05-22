@@ -90,3 +90,31 @@ error: the following file has changes staged in the index:
     log
 (use --cached to keep the file, or -f to force removal)
 ==================================================================
+$ git config --global user.name "Iman Gholampour"
+$ git config --global user.email imangh@gmail.com
+$ git commit -m "First Time!"
+
+[master 821318e] First Time!
+ 3 files changed, 47 insertions(+)
+ create mode 160000 Class2018
+ create mode 100644 log
+ create mode 100644 out.txt
+==================================================================
+$ git commit -a
+
+[master fe9266e] hello world :D !
+ 1 file changed, 46 insertions(+)
+==================================================================
+$ git config --global push.default simple
+$ git push
+
+Username for 'https://github.com': ehsaneam
+Password for 'https://ehsaneam@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.45 KiB | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/ehsaneam/Emb2018test.git
+   ea857ed..fe9266e  master -> master
