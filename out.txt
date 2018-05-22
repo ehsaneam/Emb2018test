@@ -197,4 +197,20 @@ M	Class2018
 Switched to branch 'master'
 Your branch is up-to-date with 'origin/master'.
 ==================================================================
+<<<<<<< HEAD
+=======
+$ ls
+
+Class2018  log  out.txt  README.md
+==================================================================
+$ git checkout branch1 
+
+M	Class2018
+Switched to branch 'branch1'
+==================================================================
+$ ls
+
+Class2018  log  out.txt  README.md  test2.txt
+==================================================================
+>>>>>>> branch1
 
