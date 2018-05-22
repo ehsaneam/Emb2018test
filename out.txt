@@ -1,0 +1,46 @@
+$ git clone https://github.com/imangh/Class2018.git
+
+Cloning into 'Class2018'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+==================================================================
+$ more config | grep url
+
+url = https://github.com/imangh/Class2018.git
+==================================================================
+$ echo "A Test to Start..." > test1.txt
+$ git status
+
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	test1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+==================================================================
+$ echo "*.o" > .gitignore 
+$ more .gitignore
+
+*.o
+==================================================================
+$ git status
+
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+	test1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+==================================================================
+$ git init
+
+Reinitialized existing Git repository in /home/ehsaneam/Documents/git/Class2018/.git/
