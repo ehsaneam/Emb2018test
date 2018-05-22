@@ -197,8 +197,6 @@ M	Class2018
 Switched to branch 'master'
 Your branch is up-to-date with 'origin/master'.
 ==================================================================
-<<<<<<< HEAD
-=======
 $ ls
 
 Class2018  log  out.txt  README.md
@@ -212,5 +210,4 @@ $ ls
 
 Class2018  log  out.txt  README.md  test2.txt
 ==================================================================
->>>>>>> branch1
 
